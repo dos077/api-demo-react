@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 
 const ConfigPanel = (props) => {
-  const [clientId, setClientId] = useState('88XVYQW7AYIMW7VRNQVMF6RSCUXDKDEW@AMER.OAUTHAP');
-  const [redirectUri, setRedirectUri] = useState('https://localhost:3000');
+  const [clientId, setClientId] = useState('@AMER.OAUTHAP');
+  const [redirectUri, setRedirectUri] = useState('https://dos077.github.io/api-demo-react/');
   const [storeAuth, setStoreAuth] = useState(true);
   const [logInRedirect, setLogInRedirect] = useState(true);
 

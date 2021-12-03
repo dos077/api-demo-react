@@ -66,7 +66,7 @@ const App = () => {
         <AccPanel endPoint={APIClient.accounts} /> }
       { (APIClient && isLogIn && tabsSelected.includes('orders')) &&
         <OrdersPanel endPoint={APIClient.orders} /> }
-      { (APIClient && isLogIn && tabsSelected.includes('transasctions')) &&
+      { (APIClient && isLogIn && tabsSelected.includes('transactions')) &&
          <TransactionsPanel endPoint={APIClient.transactionHistory} /> }
       
       { (APIClient && tabsSelected.includes('instruments')) &&
